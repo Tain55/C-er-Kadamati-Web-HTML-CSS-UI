@@ -1,0 +1,23 @@
+body{
+}
+
+.container{
+
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    
+}
+
+.bg_1{
+    flex: 1;
+    background-color: aqua;
+}
+
+.bg_2{
+    flex: 1;
+    background-color: yellow;
+}

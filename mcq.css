@@ -1,0 +1,386 @@
+body{
+    background-color: antiquewhite;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.grid {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    display: grid;
+    grid-gap: 30px;
+    justify-items: center;
+    grid-template-columns: repeat(3,1fr);
+}
+
+
+.beginner_box{
+    background-image: linear-gradient(270deg, #f5df6e, #ba8f00);
+    height: 223px;
+    width: 350px;
+    border-radius: 40px;
+    display: flex;
+}
+
+.beginner_box .left{
+    width: 55%;
+}
+
+.beginner_box .right{
+    width: 45%;
+    border-radius: 30px
+    
+}
+
+
+
+
+.intermediate_box {
+    background-image: linear-gradient(90deg, #7b0d1e, #db7f8e);
+    height: 223px;
+    width: 350px;
+    border-radius: 40px;
+    display: flex;
+}
+
+.intermediate_box .left{
+    width: 55%;
+}
+
+.intermediate_box .right{
+    width: 45%;
+    border-radius: 30px;
+}
+.intermediate_box .marks{
+    font-size: 20px;
+    margin-top: -10px;
+}
+
+
+
+.advanced_box {
+    background-image: linear-gradient(90deg, #233329, #63d471);
+    height: 223px;
+    width: 350px;;
+    border-radius: 40px; 
+    display: flex;
+
+}
+
+
+.advanced_box .left{
+    width: 55%;
+}
+
+.advanced_box .right{
+    width: 45%;
+    border-radius: 30px;
+}
+.advanced_box .marks{
+    font-size: 20px;
+    margin-top: -10px;
+}
+
+
+
+.texts_b{
+    height: 100px;
+    padding-top: 5px;
+    text-align: center;
+    color:    #a32626
+    ;
+}
+
+.p_b{
+    text-align: center;
+    font-size: 18px;
+    color: azure;
+}
+
+.texts_i{
+    height: 100px;
+    padding-top: 5px;
+    text-align: center;
+    color: #9caf9f;
+}
+
+.p_i{
+    text-align: center;
+    font-size: 18px;
+    color: azure;
+}
+
+.texts_a{
+    height: 100px;
+    padding-top: 5px;
+    text-align: center;
+    color: #d9dde0;
+}
+
+.p_a{
+    text-align: center;
+    font-size: 18px;
+    color: azure;
+}
+
+
+.beginner .check_out{
+    background-color: black;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000000;
+}
+
+.intermediate .check_out{
+    background-color: black;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000000;
+}
+
+.advanced .check_out{
+    background-color: black;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000000;
+}
+
+.beginner .check_out:hover{
+    background-color: #c02122;
+}
+
+.intermediate .check_out:hover{
+    background-color: #67705c;
+}
+
+.advanced .check_out:hover{
+    background-color: #a98c44;
+}
+
+
+
+.percent{
+    display: flex;
+    justify-content: center;
+}
+
+.beginner .percentage{
+    font-size: 60px;
+    color: purple;
+}
+
+.beginner .percent_mark{
+    font-size: 30px;
+    margin-top: 67px;
+    color: purple;
+}
+
+.beginner .out_of{
+    padding-top: -20px;
+    font-size: 20px;
+    color: purple;
+}
+
+.beginner .marks{
+    font-size: 20px;
+    margin-top: -10px;
+    color: purple;
+}
+
+
+
+
+
+.intermediate .percentage{
+    font-size: 60px;
+    color: #431517;
+}
+
+.intermediate .percent_mark{
+    font-size: 30px;
+    margin-top: 67px;
+    color: #431517;
+}
+
+.intermediate .out_of{
+    padding-top: -20px;
+    font-size: 20px;
+    color: #431517;
+}
+
+.intermediate .marks{
+    font-size: 20px;
+    margin-top: -10px;
+    color: #431517;
+}
+
+
+
+.advanced .percentage{
+    font-size: 60px;
+    color: #1c3037;
+}
+
+.advanced .percent_mark{
+    font-size: 30px;
+    margin-top: 67px;
+    color: #1c3037;
+}
+
+.advanced .out_of{
+    padding-top: -20px;
+    font-size: 20px;
+    color: #1c3037;
+}
+
+.advanced .marks{
+    font-size: 20px;
+    margin-top: -10px;
+    color: #1c3037;
+}
+
+
+
+
+
+.banner{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    border-radius: 30px;
+    margin: 50px;
+    display: flex;
+    
+  box-shadow: 5px 5px 50px #888888;
+}
+
+.navbar{
+    flex: 1;
+    text-align: left;
+    padding-right: 40px;
+    padding-top: 20px;
+}   
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.all_link{
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar ul li a{
+    text-decoration:none;
+    color: #bd5a33;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar ul li a:hover{
+    color: #666666;
+}
+
+.left_text{
+    width: 50%;
+    height: 100%;
+}
+
+.right_image{
+    width: 50%;
+    height: 100%;
+}
+
+.underline_top{
+    height: 3px;
+    width: 200px;
+    background-image: linear-gradient(270deg, #f5df6e, #ba8f00);
+    margin-top: -45px;
+    margin-bottom: 80px;
+}
+
+.h1_top{
+    font-size: 40px;
+    color: #666666;
+    margin-top: 100px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.p_top{
+    font-size: 30px;
+    color: #bd5a33;
+    margin-bottom: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.button_top{
+    background-image: linear-gradient(270deg, #3bab3b, #00b8ba);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: auto;
+    border-radius: 25px;
+
+}
+
+
+.beginner_text{
+    text-align: center;
+    color: purple;
+    font-size: 60px;
+}
+
+.intermediate_text{
+    text-align: center;
+    font-size: 60px;
+    color: #431517;
+}
+
+.advanced_text{
+    text-align: center;
+    font-size: 60px;
+    color: #1c3037;
+}

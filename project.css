@@ -1,0 +1,139 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    
+    background-color: #474747;
+}
+.page{
+}
+
+.navbar{
+    flex: 1;
+    text-align: right;
+    padding-right: 40px;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #be562d ;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar ul li a:hover{
+    color: #f0e9da;
+}
+
+
+.banner{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    background-image: linear-gradient(235deg, #a8a9a9, #596161);;
+    margin-bottom: 100px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    margin: 30px;
+
+    
+}
+ 
+.image{
+    width: 50%;
+    height: 100%;
+    text-align: left;
+    
+}
+
+.banner_image{
+    height: 450px;
+    width: 450px;
+    margin: 20px;
+    margin-left: 70px;
+}
+
+.text{
+    width: 50%;
+    height: 100%;
+    margin-left: 20px;
+    
+}
+
+.banner_text_head{
+    margin-top: auto;
+    margin-top: 100px;
+    font-size: 100px;
+    color: #cc2a50;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+.banner_text_details{
+    font-size: 40px;
+    color: #ffffff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.top_button{
+    background-image: linear-gradient(270deg, #f5df6e, #ba8f00);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: auto;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #cac15e;
+}
+
+
+.grid{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 30px;
+    grid-row-gap: 60px;
+}
+
+.button{
+    background-color: #363636;
+    padding-top: 20px; 
+    padding-bottom: 20px;
+    border-radius: 30px;
+    border-color: aqua;
+    transition: 0.4s;
+}
+
+.button_element{
+    width: 110px;
+    height: 185px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button_image{
+    width: 100px;
+    height: 100px;
+}
+
+.title{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.button:hover{
+    background-color: #cc2a50;
+}
+
